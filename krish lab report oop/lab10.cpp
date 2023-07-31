@@ -1,7 +1,5 @@
 //9.	Write a suitable program to demonstrate the destructor.
  
- 
- 
   #include <iostream>
  
 using namespace std;
