@@ -1,33 +1,38 @@
 #include<iostream>
 using namespace std ; 
 
-class Employee{
-    public :
-    string Name ; 
-    int Age ;
-    float Emp_id ; 
+class Employee {
 
-    void SichVorstellen(){
-        cout << "Name " << Name << endl ;
-        cout << "age " << Age << endl ;
-        cout << "emp_id " << Emp_id << endl ;
-    
+    public :
+    int empid ;
+    char name ; 
+    int salary ; 
+
+    void Getdata(){
+        cout << "Enter your emp id" << endl ; 
+        cin >> empid ; 
+        cout << "Enter your name " << endl ;
+        cin >> name ; 
+        cout << " Enter your salary" << endl ; 
+        cin >> salary ; 
     }
-public :
-    // creating a constructor 
-    Employee( string name , int age , float emp_id  ){         // no return type + the values are passed in the constructors as parameters
-        Name = name ; 
-        Age = age ; 
-        Emp_id = emp_id ;         
+
+    void displaydata(){
+        cout << empid << "\t" << name << "\t"<< salary ; 
     }
 };
 
-int main(){
-     Employee e1("Krish", 19, 2.2) ; // or 
-     // Employee e1 = Employee("Krish", 19, 2.2) ;
-    e1.SichVorstellen() ; 
+int main (){
+    Employee e[3] ; 
+  cout << " Enter the details of employee " ; 
+    for ( int i = 0 ; i< 3 ; i++){
+        e[i].Getdata(); 
+    }
 
-     Employee e2("Ram", 20, 4.3) ; 
-     e2.SichVorstellen() ; 
-    // what if I need to print this of 1000 employees, this is where the constructor's role comes into play
+cout << " The entered information is : " ; 
+ cout <<   "empid \t name \t salary "  ; 
+ for ( int i = 0 ; i< 3 ; i++){
+        e[i].displaydata() ; 
+    }
+
 }

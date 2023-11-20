@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/code/c++/basicsofc++",
-      "program": "c:/code/c++/basicsofc++/build/Debug/outDebug",
+      "cwd": "c:/code/c++/krish lab report oop",
+      "program": "c:/code/c++/krish lab report oop/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
