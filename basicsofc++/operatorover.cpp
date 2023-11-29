@@ -30,5 +30,5 @@ Satellite A21("A21") ;
 Satellite A27("A27");
 Satellite C22("");
 C22 = A21+ A27 ;  // computer does not know how to add user defined function or structure 
-cout << C22 ; 
+C22.displayinfo() ; 
  }
