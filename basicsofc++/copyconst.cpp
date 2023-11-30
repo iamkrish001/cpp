@@ -18,7 +18,12 @@ students = s;
 void display(){
     cout << " The no of students are " << students << endl ; 
 }
+~ Mykaxya(){
+    cout << " Destructor called" ; 
+}
+
 };
+
 
 
 int main (){
