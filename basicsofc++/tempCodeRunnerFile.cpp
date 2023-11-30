@@ -1,1 +1,2 @@
-    // cout << " The sum of two variables 3 and 6.9  is : "  << add<float>(3, 6.9f) << endl ; 
+    // cout << " He is  "<< obj1.getfeet()<< " feet tall" <<endl ; 
+    // cout << " He is  "<< obj1.getinch()<< " inch tall" <<endl ; 
