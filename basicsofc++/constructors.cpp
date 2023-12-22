@@ -22,20 +22,20 @@ public :
  }
 
 
- Vehicle(string, int) ; 
- void display() ; 
+//  Vehicle(string, int) ; 
+//  void display() ; 
  } ; 
 
- Vehicle:: Vehicle(string b, int m){  // constructor outside class
-brand = b ; 
-model = m ; 
+//  Vehicle:: Vehicle(string b, int m){  // constructor outside class
+// brand = b ; 
+// model = m ; 
 
- }
+//  }
 
- void Vehicle ::display(){
-  cout << " Brand - " << brand << endl ; 
-    cout << " model - " << model << endl ; 
- }
+//  void Vehicle ::display(){
+//   cout << " Brand - " << brand << endl ; 
+//     cout << " model - " << model << endl ; 
+//  }
  
 
 int main (){
@@ -44,17 +44,17 @@ int main (){
     Vehicle cars2("Lambo Huracan", 2023, "V14") ;
     Vehicle cars3("Lambo Aventador", 2023, "V10") ; // these are constructor that are overloaded with reference to the number of parameters given
     Vehicle cars4("Lambo Urus", 2023, "V10") ;
-    Vehicle bike1("Kawasaki Ninja", 2022) ;
+   //  Vehicle bike1("Kawasaki Ninja", 2022) ;
 
-// explicit call
-Vehicle bike2 = Vehicle("Harley Davidson", 2021) ; 
+// // explicit call
+// Vehicle bike2 = Vehicle("Harley Davidson", 2021) ; 
 
    cars1.printdetails() ;  
    cars2.printdetails() ;  
    cars3.printdetails() ;  
    cars4.printdetails() ;  
-   bike1.display();
-   bike2.display();
+   // bike1.display();
+   // bike2.display();
 }
 
 

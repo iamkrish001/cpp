@@ -29,7 +29,6 @@ int main (){
     // default constructor is called here
     Calculation c1 ; 
     c1.displaydata() ;  // value must be 0 
-  
     calculator(c1); // called by reference
     c1.displaydata() ;  // value must be 3 
     
